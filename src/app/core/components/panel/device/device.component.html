@@ -1,0 +1,61 @@
+<div class="row" style="padding: 0px !important; margin: 0px !important;">
+    <div class="card" style=" padding: 2px; margin: 0px;">
+        <div class="card-header" style="padding: 5px ; margin: 0px;">
+            <div class="row " style="padding: 0px ; margin: 0px;">
+
+                <label for="inputEmail3" class="col-form-label col-5" translate>Titels.DeviceInformation</label>
+                <div class="col-7 ">
+                    <select class="form-select" style="min-width: 180px; min-height:40px;" [(ngModel)]="deviceId" #userDeviceSelect (change)="changeUserDevice(userDeviceSelect.value)" [disabled]="!isABleToChangeDevice">
+              
+                            <option *ngFor="let i of devices" value="{{i.DeviceSerial}}"> {{i.Name}}</option>
+                          </select>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="card-body" style="padding: 0px ; margin: 0px;">
+            <div class="panel panel-primary">
+                <div class="tab-menu-heading tab-menu-heading-boxed" style="padding: 2px ; margin: 0px;">
+                    <div class="tabs-menu-boxed">
+                        <!-- Tabs -->
+                        <ul class="nav panel-tabs" style="padding: 0px;  font-size: calc(12px +  0.3vw );  ">
+                            <li><a href="#tab1" id="tabTracking" class="active" data-bs-toggle="tab" style="padding: 4px; padding-top: 10px; padding-bottom: 10px;"><i class="fa fa-map-marker"></i> <span translate>Labels.Tracking</span></a></li>
+
+                            <li><a href="#tab2" data-bs-toggle="tab" class="" style="padding: 4px; padding-top: 10px; padding-bottom: 10px;" *ngIf="selectedDevice.DeviceModel == 3"><i class="fa fa-road"></i> <span translate>Labels.Routes</span></a></li>
+
+                            <li><a href="#tab3" data-bs-toggle="tab" class="" style="padding: 4px; padding-top: 10px; padding-bottom: 10px;"><i class="fa fa-signal"></i> <span translate>Labels.Status</span></a></li>
+                            <li><a href="#tab4" data-bs-toggle="tab" class="" style="padding: 4px; padding-top: 10px; padding-bottom: 10px;"><i class="fa fa-cog"></i> <span>تنظیمات</span></a></li>
+                            <li><a href="#tab5" data-bs-toggle="tab" style="padding: 4px; padding-top: 10px; padding-bottom: 10px;"><i class="fa fa-warning"></i> <span>هشدار ها</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="panel-body tabs-menu-body" style="padding: 2px; margin: 0px;">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tab1">
+                            <app-tracking [Device]="selectedDevice"></app-tracking>
+                        </div>
+
+                        <div class="tab-pane" id="tab2" *ngIf="selectedDevice.DeviceModel == 3">
+                            مسیر ها
+                        </div>
+
+
+                        <div class="tab-pane" id="tab3">
+                            <app-status [Device]="selectedDevice"></app-status>
+                        </div>
+                        <div class="tab-pane" id="tab4">
+
+                            <app-settings [Device]="selectedDevice"></app-settings>
+                        </div>
+
+                        <div class="tab-pane" id="tab5">
+
+                            <app-warnings [Device]="selectedDevice"></app-warnings>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,621 @@
+{
+    "Titels": {
+        "language": "فارسی",
+        "SiteName": "ردیاب وایا",
+        "Footer": "تمامی حقوق متعلق به وایا ترکر است",
+        "Home": "خانه",
+        "Login": "ورود",
+        "Account": "حساب کاربری",
+        "Panel": "پنل کاربری",
+        "Register": "ایجاد حساب",
+        "ForgotPassword": "فراموشی کلمه عبور",
+        "MobileConfirmation": "تایید موبایل",
+        "EmailConfirmation": "تایید ایمیل",
+        "AccountSettings": "تنظیمات حساب",
+        "ChangePassword": "تغییر کلمه عبور",
+        "Notifications": "اعلان ها",
+        "Messages": "پیغام ها",
+        "Map": "نقشه",
+        "DeviceTracking": "رهگیری دستگاه",
+
+        "DeviceManagement": "مدیریت دستگاه ها",
+        "AddDevice": "افزودن دستگاه",
+        "MyDevices": "دستگاه های من",
+        "DevicesList": "لیست دستگاه ها",
+        "DeviceInformation": "اطلاعات دستگاه",
+        "DeviceSendedSms": "لیست پیامک ها",
+        "DeviceLogs": "لیست لاگ ها",
+        "DeviceFirmwares": "فریمورها",
+        "DeletePoints": "حذف نقاط",
+        "RemoveDevice": "حذف دستگاه",
+
+        "UserManagement": "مدیریت کاربران",
+        "UsersList": "لیست کاربران",
+        "AddUser": "افزودن کاربر",
+
+
+        "OnlineTracking": "ردیابی آنلاین",
+        "SearchPoints": "جستجو در نقاط",
+        "DeviceSettings": "تنظیمات دستگاه",
+        "AlarmSettings": "تنظیمات هشدار",
+        "ConditionalAlerts": "هشدار های شرطی",
+        "EventsList": "لیست رویداد ها",
+        "PointTracking": "رهگیری نقطه",
+
+        "UserBalance": "اعتبار",
+        "Notfound": "خطا 404",
+        "LogOut": "خروج",
+        "Salesrecord": "ثبت فروش"
+
+    },
+    "Labels": {
+        "ServiceReminderValue": " کارکرد خودرو ",
+        "Status": "وضعیت",
+        "Tracking": "ردیابی",
+        "SelectLanguage": "انتخاب زبان",
+        "NotSubmited": "ثبت نشده",
+        "Scan": "اسکن کردن",
+        "Settings": "تنظیمات",
+        "FirmwareVersion": "ورژن نرم افزار",
+        "ReasonForSaving": "دلیل ارسال اطلاعات",
+        "HardwareVersion": "ورژن سخت افزار",
+        "DeviceTrackingInfo": "اطلاعات رهگیری دستگاه",
+        "PointTrackingCode": "کد رهگیری نقطه",
+        "DeviceTrackingIfoCopyedInClipBoard": "اطلاعات رهگیری کپی شد",
+        "NoDeviceForYou": "متاسفانه هیچ دستگاهی ثبت نشده است",
+        "NoNotoficationForYou": "هیچ رویدادی ثبت نشده است",
+        "NoActiveCondition": "هیچ شرط فعالی وجود ندارد",
+        "ExistCondition": "شرط های موجود",
+        "WithOutTime": "بدون زمان",
+        "RemainingPoint": " نقطه باقی مانده",
+        "SelectArea": "لطفا محدوده را انتخاب کنید",
+        "AreaSelected": "محدوده مورد نظر انتخاب شد",
+        "SelectedArea": "محدوده انتخاب شده",
+        "SelectMinimum4Point": "حداقل باید 4 نقطه انتخاب شده باشد",
+        "Maximum15Point": "15 نقطه قابل انتخاب است",
+        "CreateTime": "زمان ایجاد",
+        "ConditionIsDisposable": "شرط یکبار مصرف است",
+        "ConditionIsNotDisposable": "شرط یکبار مصرف نیست",
+        "DeviceModeInEnterArea": "تغییر مد کاری به",
+        "DeviceModeInExitArea": "تغییر مد کاری به",
+        "SampleTimeInEnterArea": "تغییر فاصله بین ارسال های آفلاین به",
+        "SampleTimeInExitArea": "تغییر فاصله بین ارسال های آفلاین به",
+        "ConditionCommand": "دستورات شرط",
+        "NoCommand": "بدون دستور",
+        "Device": "مدل",
+        "DeviceModel": "مدل دستگاه",
+        "Tracker": "ردیاب",
+        "Logger": "لاگر",
+        "ModemImei": "سریال مودم",
+        "OwnerMobile": "موبایل مالک",
+        "IsActive": "فعال است؟",
+        "DeviceSerial": "سریال دستگاه",
+        "LastConnection": "آخرین ارتباط",
+        "NoChange": "بدون تغییر",
+        "SecondsAgo": "ثانیه قبل",
+        "MinutesAgo": "دقیقه قبل",
+        "HoursAgo": "ساعت قبل",
+        "DaysAgo": "روز قبل",
+        "MomentsAgo": "لحظاتی قبل",
+        "MonthsAgo": "ماه قبل",
+        "YearsAgo": "سال قبل",
+        "DevicePointsCount": "تعداد نقاط ثبت شده",
+        "PointsCount": "تعداد نقاط",
+        "WarrantyCredit": "اعتبار گارانتی",
+        "WarrantyStartDate": "شروع گارانتی",
+        "WarrantyEndDate": "پایان گارانتی",
+        "PanelCredit": "اعتبار پنل",
+        "PanelStartDate": "شروع اعتبار پنل",
+        "PanelEndDate": "پایان اعتبار پنل",
+        "MaximumLastDaysToView": "حداکثر سوابق قابل مشاهده",
+        "OtherDays": "روز دیگر",
+        "Ended": "به پایان رسیده است",
+        "SimcardBalance": "اعتبار سیم کارت",
+        "SimcardNumber": "شماره سیم کارت",
+        "SyncNotDone": "همگام سازی تنظیمات انجام نشده است",
+        "SyncAt": "همگام سازی تنظیمات",
+        "Second": "ثانیه",
+        "Minute": "دقیقه",
+        "Hour": "ساعت",
+        "Day": " روز",
+        "Month": " ماه",
+        "IsMoving": "در حرکت",
+        "Stoped": "متوقف",
+        "Point": "نقطه",
+        "Route": "مسیر",
+        "Routes": "مسیرها",
+        "Engine": "موتور",
+        "On": "روشن",
+        "Off": "خاموش",
+        "Type": "نوع",
+        "Time": "زمان",
+        "Error": "خطا",
+        "Warning": "هشدار",
+        "Speed": "سرعت",
+        "Kmh": "کیلومتر در ساعت",
+        "Km": "کیلومتر",
+        "Degree": "درجه",
+        "Direction": "جهت",
+        "Meter": "متر",
+        "Voltage": "ولت",
+        "Percent": "درصد",
+        "Centigrade": "سانتی گراد",
+        "CentigradeDegree": "°C",
+        "Altitude": "ارتفاع",
+        "CarBattery": "باتری خودرو",
+        "InternalBattery": "باتری دستگاه",
+        "ExternalBattery": "باتری خارجی",
+        "DeviceRunTime": "روشن بودن",
+        "DeviceFixTime": "فیکس شدن",
+        "Mode_Logger": "ردیابی آفلاین",
+        "Mode_OnlineTracking": "ردیابی آنلاین",
+        "Mode_PowerOff": "خاموش",
+        "Temperature": "دما",
+        "Humidity": "رطوبت",
+        "PleaseSelectDateRange": "لطفا بازه زمانی را انتخاب کنید",
+        "PleaseConditionDate": "لطفا زمان مورد نظر را انتخاب کنید",
+        "SelectRange": "انتخاب بازه زمانی دلخواه",
+        "SelectStartDate": "زمان شروع",
+        "SelectEndDate": "زمان پایان",
+        "RouteTotallTime": "زمان پیمودن مسیر",
+        "RouteStartDate": "شروع مسیر",
+        "RouteEdnDate": "پایان مسیر",
+        "DistanceTraveled": "مسافت پیموده شده",
+        "MaximumSpeed": "بیشترین سرعت",
+        "RouteColor": "رنگ مسیر",
+        "Sender": "فرستنده",
+        "Reciver": "گیرنده",
+        "Message": "پیغام",
+        "Delete": "حذف کردن",
+        "Read": "خواندن",
+        "Id": "Id",
+        "Title": "عنوان",
+        "Action": "عملیات",
+        "Yes": "بله",
+        "No": "خیر",
+        "Close": "بستن",
+        "Open": "باز کردن",
+        "Next": "بعدی",
+        "Previous": "قبلی",
+        "Now": "الان",
+
+
+
+
+        "DeviceParameters": "پارامتر های دستگاه",
+
+
+
+        "RemoveDeviceQuestion": "این عملیات قابل برگشت نیست ، آیا میخواهید دستگاه را از حساب خود حذف کنم کنید؟",
+        "DeletePointsQuestion": "این عملیات قابل برگشت نیست ، آیا میخواهید همه نقاط دستگاه حذف شوند؟",
+
+        "TemperatureSensorRange": "محدوده سنسور دما",
+        "HumiditySensorRange": "محدوده سنسور رظوبت",
+        "DeviceStatus": "وضعیت دستگاه",
+        "DeviceEvents": "رخدادهای دستگاه",
+
+
+        "PleaseChoose": "لطفا انتخاب کنید",
+
+        "ExitFromArea": "خروج از محدوده",
+        "EnterToArea": "ورود به محدوده",
+        "DoNotEnterAreaUntil": "عدم ورود به محدوده تا",
+        "DoNotExitAreaUntil": "عدم خروج از محدوده تا",
+        "EnterAndExitToArea": "ورود و خروج به محدوده",
+        "StopMoreThan": "توقف بیش از",
+
+
+        "DevicesCount": "کل دستگاه ها",
+        "OnlineDevicesCount": "دستگاه های آنلاین",
+        "SoldDevicesCount": "دستگاه های فروخته شده",
+
+
+
+        "Lock": "قفل",
+        "UnLock": "آزاد",
+        "Confirmed": "تایید شده",
+        "NotConfirmed": "تایید نشده",
+
+
+        "Sold": "فروخته شده",
+        "NotSold": "فروخته نشده",
+        "Online": "آنلاین",
+        "Offline": "آفلاین",
+        "Active": "فعال",
+        "Deactive": "غیر فعال",
+        "All": "همه"
+
+
+
+
+
+
+
+
+    },
+    "Result": {
+        "Success": "موفق",
+        "Error": "خطا",
+
+
+        "NoError": "بدون خطا",
+        "UnknownError": "خطای ناشناخته",
+
+
+        "NotAuthenticated": "شما احراز هویت نشده اید",
+        "NoPermission": "شما مجوز لازم را ندارید",
+
+        "ConnectionError": "خطا در برقراری ارتباط با سرور",
+
+
+
+        "InvalidInputData": "ورودی ها را بررسی کنید",
+
+        "RecaptchaIsInvalid": "فرمت سنمجش ربات نادرست است",
+        "RecaptchaResultError": "شما ربات تشخیص داده شده اید",
+        "FirstNameIsInvalid": "فرمت نام نادرست است",
+        "LastNameIsInvalid": "فرمت نا خانوادگی نادرست است",
+        "MobileIsInvalid": "فرمت موبایل نادرست است",
+        "PasswordIsInvalid": "فرمت کلمه عبور نادرست است",
+        "NewPasswordIsInvalid": "فرمت کلمه عبور جدید نادرست است",
+        "RePasswordIsInvalid": "فرمت تکرار کلمه عبور جدید نادرست است",
+        "OldPasswordIsInvalid": "فرمت کلمه عبور فعلی نادرست است",
+        "OldPasswordError": "کلمه عبور فعلی صحیح نیست",
+        "EmailIsInvalid": "فرمت کلمه عبور جدید نادرست است",
+        "WrongPassword": "کلمه عبور صحیح نیست",
+
+        "CodeIsInvalid": "فرمت کد اعتبار سنجی نادرست است",
+        "CodeIsWrong": "کد اعتبار سنجی صحیح نیست",
+        "EmailIsConfirm": "ایمیل شما تایید شده است",
+        "MobileIsConfirm": "موبایل شما تایید شده است",
+        "MobileNotConfirm": "موبایل شما تایید نشده است",
+        "ConfirmCodeSended": "کد برای شما ارسال شد",
+        "ConfirmCompelete": "اعتبار سنجی کامل شد",
+        "RegisterCompelete": "ثبت نام با موفقیت انجام شد",
+        "LoginCompelete": "ورود با موفقیت انجام شد",
+        "PasswordChangeCompelete": "کلمه عبور با موفقیت تغییر کرد",
+        "EmailConfirmCompelete": "تایید ایمیل با موفقیت انجام شد",
+        "InformationUpdated": "اطلاعات به روز رسانی شد",
+
+        "AccountNotActived": "حساب شما فعال نشده است",
+        "AccountIsDeactive": "حساب شما غیر فعال است",
+        "AccountIsLocked": "حساب به مدت {{value1}} دقیقه قفل است",
+
+        "CodeSendedTo": "کد برای {{value1}} ارسال شد",
+        "ConfirmEmailSend": "ایمیل اعتبار سنجی ارسال شد",
+
+        "NameIsInvalid": "فرمت نام نادرست است",
+        "NameIsExist": "نام انتخاب شده وجود دارد",
+
+        "ModemSerialIsExist": "شماره سریال مودم تکراری است",
+
+        "EmailIsExist": "کاربری با این ایمیل وجود دارد",
+        "MobileIsExist": "کاربری با این موبایل وجود دارد",
+        "MobileNotExist": "کاربری با این موبایل وجود ندارد",
+        "EmailNotExist": "کاربری با این ایمیل وجود ندارد",
+
+
+        "RedirectToMobileConfirm": "هدایت به صفحه تایید موبایل",
+        "RedirectToLogin": "هدایت به صفحه ورود",
+        "RedirectToPanel": "هدایت به پنل کاربری",
+        "RedirectToPage": "هدایت به صفحه مورد نظر",
+
+
+        "NotFounded": "صفحه مورد نظر یافت نشد",
+        "AccessDenied": "شما مجاز به دسترسی نیستید",
+        "BackToHome": "باز گشت به خانه",
+
+
+        "DeviceNotFound": "دستگاهی با این سریال وجود ندارد",
+        "DeviceHaveOwner": "دستگاه متعلق به فرد دیگری است",
+        "DeviceAddedCompelete": "دستگاه با موفقیت افزوده شد",
+        "DeviceNameExist": "دستگاهی با این نام وجود دارد",
+        "DeviceSerialIsInvalid": "سریال دستگاه معتبر نیست",
+        "DeviceNameIsInvalid": "نام دستگاه معتبر نیست",
+        "DeviceDontHaveAnyPoint": "اطلاعاتی یافت نشد",
+
+
+
+        "GpsNotFixed": "دستگاه به ماهواره متصل نیست",
+        "LocationWithBts": "موقعیت با استفاده از AGPS",
+        "LocationWithGps": "تعداد ماهواره های متصل",
+
+
+        "PleaseSelectStartDate": "لطفا زمان شروع را انتخاب کنید",
+        "PleaseSelectEndDate": "لطفا زمان پایان را انتخاب کنید",
+        "PleaseSelectDateRange": "لطفا بازه زمانی را انتخاب کنید",
+        "PleaseSelectValidRange": "لطفا بازه صیحی را انتخاب کنید",
+        "StartDateCannotBeInfuture": "زمان شروع نمیتواند رد آینده باشد",
+        "EndDateCannotBeInfuture": "زمان پایان نمیتواند در آینده باشد",
+        "NoDataInThisRange": "اطلاعاتی در این بازه زمانی نیست",
+        "TheMaximumTimePeriodIsDays": "حداکثر بازه زمانی {{value1}} روز است",
+        "RouteCounts": "{{value1}} مسیر یافت شد",
+
+
+        "ActionCompleted": "عملیات انجام شد",
+
+        "VersionExist": "این ورژن وجود دارد",
+        "VersionNotExist": "ورژن وجود ندارد",
+        "FileNotFound": "فایل یافت نشد",
+        "MaximumCountIs": "حداکثر شروط فعال {{value1}} عدد است"
+
+
+
+
+    },
+
+    "Validation": {
+        "Required": "{{value1}} الزامی است",
+        "Format": "{{value1}} معتبر نیست",
+        "Minlength": "حداقل طول مجاز {{value1}} کارکتر است",
+        "Maxlength": "حداکثر طول مجاز {{value1}} کارکتر است",
+        "Pattern": "فرمت {{value1}} صحیح نیست"
+    },
+
+    "Inputs": {
+        "LicensePlateText": "پلاک خودرو",
+        "LicensePlatePlaceHolder": "اختیاری",
+
+        "DriverNameText": "نام راننده",
+        "DriverNamePlaceHolder": "اختیاری",
+
+
+        "DriverMobileText": "موبایل راننده",
+        "DriverMobilePlaceHolder": "اختیاری",
+
+        "MoreDetailsText": "اطلاعات بیشتر",
+        "MoreDetailsPlaceHolder": "اختیاری",
+
+
+
+        "FirstNameText": "نام",
+        "FirstNamePlaceHolder": "لطفا نام خود را وارد کنید",
+        "LastNameText": "نام خانوادگی",
+        "LastNamePlaceHolder": "لطفا نام خانوادگی خود را وارد کنید",
+
+        "ProductionCostText": "هزینه تولید",
+        "ProductionCostPlaceHolder": "هزینه تولید دستگاه به ریال",
+
+        "BuyerFullNameText": "نام و نام خانوادگی خریدار",
+        "BuyerFullNamePlaceHolder": "نام و نام خانوادگی خریدار ",
+
+
+        "BuyerMobileText": "موبایل خریدار",
+        "BuyerMobilePlaceHolder": "موبایل خریدار را وارد کنید",
+
+        "BuyDateText": "تاریخ خرید",
+
+        "BuyPriceText": "هزینه خرید دستگاه",
+        "BuyPricePlaceHolder": " مبلغ پرداختی خریدار ( قیمت فروش دستگاه ) ریال",
+
+
+
+        "MobileText": "موبایل",
+        "MobilePlaceHolder": "موبایل ، مثال : 09123456789",
+
+        "SimcardText": "شماره سیم کارت",
+        "SimcardPlaceHolder": "شماره سیم کارت ، مثال : 09123456789",
+
+        "SmsPanelNumberText": "شماره پنل سایت",
+        "SmsPanelNumberPlaceHolder": "شماره پنل سایت ، مثال : 10008088808088",
+
+
+        "WebServiceLinkText": "آدرس وب سرویس",
+        "WebServiceLinkPlaceHolder": "آدرس وب سرویس ، مثال : backend.onlinetracker.ir",
+
+
+        "Mobile1Text": "موبایل اطلاع رسانی 1",
+        "Mobile1PlaceHolder": "مثال : 09123456789",
+        "Mobile2Text": "موبایل اطلاع رسانی 2",
+        "Mobile2PlaceHolder": "مثال : 09123456789",
+        "Mobile3Text": "موبایل اطلاع رسانی 3",
+        "Mobile3PlaceHolder": "مثال : 09123456789",
+
+        "EmailText": "ایمیل",
+        "EmailPlaceHolder": "ایمیل ، مثال : test@yahoo.com",
+        "PasswordText": "کلمه عبور",
+        "PasswordPlaceHolder": "لطفا کلمه عبور خود را وارد کنید",
+        "NewPasswordText": "کلمه عبور جدید",
+        "NewPasswordPlaceHolder": "لطفا کلمه عبور جدید خود را وارد کنید",
+        "OldPasswordText": "کلمه عبور فعلی",
+        "OldPasswordPlaceHolder": "لطفا کلمه عبور فعلی خود را وارد کنید",
+        "CodeText": "کد دریافتی",
+        "CodePlaceHolder": "______",
+
+        "IsActived": "فعال باشد؟",
+
+        "DeviceModelText": "مدل دستگاه",
+        "DeviceModelPlaceHolder": "لطفا انتخاب کنید",
+        "DeviceModelTracker": "ردیاب",
+        "DeviceModelLogger": "لاگر",
+        "DeviceModelAdvancedCarTracker": "ردیاب پیشرفته",
+        "DeviceModelPowerBankTracker": "ردیاب پاور بانک",
+
+        "ModemSerialText": "شماره سریال مودم",
+        "ModemSerialPlaceHolder": "شماره سریال مودم برد دستگاه",
+
+        "VersionText": "ورژن",
+        "VersionPlaceHolder": "لطفا ورژن را وارد کنید ، مثال : 103",
+
+        "DescriptionText": "توضیحات",
+        "DescriptionPlaceHolder": "لطفا توضیحات را وارد کنید",
+
+
+        "DeviceNameText": "نام دستگاه",
+        "DeviceNamePlaceHolder": "نام دلخواه دستگاه برای شناسایی راحتتر",
+
+        "DeviceSerialText": "شماره سریال دستگاه",
+        "DeviceSerialPlaceHolder": "شماره سریال دستگاه خریداری شده",
+
+
+        "MonitoringPasswordText": "کلمه عبور مانیتورینگ",
+        "MonitoringPasswordPlaceHolder": "لطفا کلمه عبور مانیتورینگ را وارد کنید",
+
+        "OwnerMobileText": "شماره مالک دستگاه",
+        "OwnerMobilePlaceHolder": "لطفا شماره مالک دستگاه را وارد کنید",
+
+
+        "OptionMaximumCondtionCountText": "تعداد مجاز شروط",
+        "OptionMaximumCondtionCountPlaceHolder": "مثال : 2 ",
+
+
+        "AreaNameText": "نام محدوده",
+        "AreaNamePlaceHolder": "مثال : شهر کرمان",
+
+        "EngineStatusText": "خودرو روشن شود؟",
+        "EngineOffSafeText": "خاموشی ایمن خودرو؟",
+
+
+        "MaximumSampleTimeText": "حداکثر فاصله زمانی بین ارسال ها",
+        "MaximumSpeedChangeText": "تغییرات سرعت  برای ارسال",
+        "MaximumDistanceChangeText": "تغییرات فاصله برای ارسال",
+        "MaximumHeadChangeText": "تغییرات زاویه برای ارسال",
+        "MaximumSmsRatingTimeText": "فاصله زمانی ارسال با پیامک",
+        "MaximumAliveRatingTimeText": "فاصله زمانی سیگنال اطلاع رسانی",
+
+        "ConditionalNotificationEnable": "هشدار های شرطی فعال باشند؟",
+
+        "GpsTimeOutText": "حداکثر زمان انتظار GPS",
+        "DeviceTimeOutText": "حداکثر زمان روشن ماندن دستگاه",
+        "OnlineTrackingInterValText": "فاصله بین ارسال های آنلاین",
+        "SampleTimeText": "فاصله بین ارسال های آفلاین",
+        "MinimumSendingTimeText": "حداقل فاصله ارسال های آفلاین",
+        "DeviceBalanceGetTimeText": "فاصله استعلام اطلاعات سیم کارت",
+        "MinimumWorkingVoltageText": "حداقل ولتاژ کاری دستگاه",
+        "SosEnableText": "ارسال با فعال شدن کلید SOS",
+        "MotionEnableText": "ارسال با فعال شدن سنسور ضربه",
+        "TrackingModeText": "حالت کاری دستگاه",
+
+
+
+        "InternalBatteryMinimumVoltageText": "حداقل ولتاژ مجاز باتری داخلی",
+        "InternalBatteryMinimumVoltageEnableText": "هشدار ولتاژ باتری داخلی فعال باشد؟",
+        "CarBatteryMinimumVoltageText": "حداقل ولتاژ مجاز باتری خودرو",
+        "CarBatteryMinimumVoltageEnableText": "هشدار ولتاژ باتری خودرو فعال باشد؟",
+        "DynamDamageVoltageText": "حداقل ولتاژ مجاز دینام خودرو",
+        "DynamDamageVoltageEnableText": "هشدار خرابی دینام خودرو فعال باشد؟",
+        "SpeedLimitValueText": "حداکثر سرعت مجاز خودرو",
+        "SpeedLimitEnableText": "هشدار تجاوز از سرعت مجار فعال باشد؟",
+        "DistanceValueText": "میزان مسافت مجاز روزانه",
+        "DistanceValueEnableText": "هشدار مسافت مجاز روزانه فعال باشد؟",
+        "CarServiceReminderEnableText": "یادآور سرویس خودرو فعال باشد؟",
+        "CarServiceReminderValueText": "میزان مسافت یادآور سرویس خودرو",
+
+
+        "SimCardBalanceAlarmEnableText": "هشدار کمبود اعتبار سیم کارت دستگاه فعال باشد؟",
+        "EngineOnEnableText": "هشدار روشن شدن خودرو فعال باشد؟",
+        "EngineOffEnableText": "هشدار خاموش شدن خودرو فعال باشد؟",
+        "CarStartMoveEnableText": "هشدار حرکت خودرو فعال باشد؟",
+        "CarStopMoveEnableText": "هشدار توقف خودرو فعال باشد؟",
+        "CraneEnableText": "هشدار حمل با جرثقیل فعال باشد؟",
+        "ShockSensorEnableText": "هشدار فعال شدن سنسور ضربه فعال باشد؟",
+
+
+        "TemperatureRangeEnableText": "هشدار محدوده دمایی فعال باشد؟",
+        "MinimumTemperatureText": "حداقل دمای مجاز",
+        "MaximumTemperatureText": "حداکثر دمای مجاز",
+        "HumidityRangeEnableText": "هشدار محدوده رطوبتی فعال باشد؟",
+        "MinimumHumidityText": "حداقل رطوبت مجاز",
+        "MaximumHumidityText": "حداکثر رطوبت مجاز",
+
+        "ConditionType": "نوع شرط",
+        "ConditionArea": "مرز محدوده",
+        "ConditionTime": "زمان مورد نظر شرط",
+        "ConditionIsEnable": "شرط فعال باشد؟",
+        "ConditionIsDisposable": "شرط یکبار مصرف باشد؟",
+        "Action": "عملیات",
+
+
+
+        "OptionHaveAht10Sensor": "سنسور دما دارد؟",
+        "OptionHaveInternalBattery": "باتری داخلی دارد؟",
+        "OptionHaveExternalBattery": "باتری خارجی دارد؟"
+
+
+
+
+
+    },
+    "Buttons": {
+        "Login": "ورود",
+        "Register": "ثبت نام",
+        "Confirm": "تایید",
+        "SaveChanges": "ذخیره تغییرات",
+        "SendConfirmCode": "ارسال کد اعتبار سنجی",
+        "SendEmailActiviationCode": "ارسال ایمیل اعتبار سنجی",
+        "RememberMe": "مرا به خاطر بسپار",
+        "AgreeWihRoles": "شرایط و ضوابط را می پذیرم",
+        "AddDevice": "ثبت دستگاه",
+        "Cancell": "لغو",
+        "Search": "جستجو",
+        "Select": "انتخاب",
+        "Add": "افزودن",
+        "Edite": "ویرایش",
+        "SendMessage": "ارسال پیغام",
+        "Submit": "ثبت کردن",
+        "Lock": "قفل کردن",
+        "UnLock": "باز کردن",
+        "Active": "فعال کردن",
+        "Deactive": "غیر فعال کردن",
+        "Delete": "حذف",
+        "Save": "ذخیره",
+        "View": "مشاده",
+        "Close": "بستن",
+        "ViewArea": "مشاده محدوده",
+        "CopyLinkInfo": "کپی کردن لینک",
+        "SelectIcon": "انتخاب آیکون",
+        "Icon": "آیکون",
+        "RoutingToTheCar": "مسیر یابی تا خودرو",
+        "ShowLocation": "نمایش موقعیت",
+        "ReGenerateLink": "نو سازی لینک"
+    },
+    "Links": {
+        "Register": "حساب کاربری ندارید ؟ ثبت نام کنید",
+        "Login": "حساب کاربری دارید ؟ وارد شوید",
+        "ForgotPassword": "فراموشی کلمه عبور"
+    },
+    "Processing": {
+        "ReacptchaCheck": "در حال برسی ضد ربات",
+        "RecaptchaError": "خطا در ماژول ریکپچا",
+        "SendingRequest": "درحال ارسال درخواست شما",
+        "CommunicateWithTheServer": "درحال برقراری ارتباط با سرور",
+        "PleaseWait": "منتظر بمانید"
+    },
+
+
+    "Helps": {
+        "FillInformation": "لطفا اطلاعات مورد نیاز را وارد کنید",
+        "AddWithDeviceSerial": "افزودن با شماره سریال دستگاه",
+        "AddWithDeviceSimcardNumber": "افزودن با شماره سیم کارت دستگاه",
+        "DeviceIsDisable": "دستگاه غیر فعال است",
+        "DeviceIsActive": "دستگاه فعال است"
+    },
+
+
+    "TrackerReasonForSaving": {
+        "PowerOn": "روشن شدن دستگاه",
+        "AlivePoint": "سیگنال اطلاع رسانی",
+        "FlagChanges": "تغییر وضعیت خودرو",
+        "FastRotate": "تغییر جهت ناگهانی خودرو",
+        "FastSpeedChange": "تغییر سرعت ناگهانی خودرو",
+        "SampleTime": "زمان نمونه برداری",
+        "MoveMentDistance": "مسافت نمونه برداری",
+        "Rotate": "تغییر جهت خودرو",
+        "SpeedChange": "تغییر سرعت خودرو",
+        "ShockSensor": "فعال شدن شوک سنسور",
+        "SOSRequest": "درخواست کمک اضطراری",
+        "GpsFixSignal": "متصل شده به ماهواره GPS"
+    },
+
+
+    "LoggerReasonForSaving": {
+        "Unknown": "ناشناخته",
+        "PowerOn": "روشن شدن دستگاه",
+        "RTCTime": "فاصله زمانی",
+        "ShockSensor": "سنسور ضربه",
+        "SosButton": "کلید SOS",
+        "ChargerConnect": "اتصال شارژر",
+        "DeviceReset": "راه اندازی مجدد دستگاه"
+    }
+
+}

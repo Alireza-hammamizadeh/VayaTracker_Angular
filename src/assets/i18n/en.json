@@ -1,0 +1,487 @@
+{
+
+    "Titels": {
+        "language": "English",
+        "SiteName": "Vaya Tracker",
+        "Footer": "All rights reserved to Nik Tajhiz Karmania",
+        "Home": "Home",
+        "Login": "Login",
+        "Account": "Account",
+        "Panel": "User Panel",
+        "Register": "Register",
+        "ForgotPassword": "Forgot Password",
+        "MobileConfirmation": "Mobile Confirmation",
+        "EmailConfirmation": "Email Confirmation",
+        "AccountSettings": "Account Settings",
+        "ChangePassword": "Change Password",
+        "Notifications": "Notifications",
+        "Map": "Map",
+        "DeviceTracking": "Device Tracking",
+
+        "DeviceManagement": "Device Management",
+        "AddDevice": "Add Device",
+        "MyDevices": "My Devices",
+        "DevicesList": "Devices List",
+        "DeviceInformation": "Device Information",
+        "DeviceSendedSms": "Device Sended Sms",
+        "DeviceLogs": "Device Logs",
+        "DeviceFirmwares": "Device Firmwares",
+        "DeletePoints": "Delete Points",
+        "RemoveDevice": "Remove Device",
+
+
+        "OnlineTracking": "Online Tracking",
+        "SearchPoints": "Search Points",
+        "DeviceSettings": "Device Settings",
+        "AlarmSettings": "Alarm Settings",
+        "ConditionalAlerts": "Conditional Alerts",
+        "EventsList": "Events List",
+        "PointTracking": "Point Tracking",
+
+        "UserBalance": "User Balance",
+        "LogOut": "Log Out"
+    },
+    "Labels": {
+        "Settings": "Settings",
+        "DeviceTrackingInfo": "Device tracking information",
+        "PointTrackingCode": "Point tracking code",
+        "DeviceTrackingIfoCopyedInClipBoard": "Tracking information was copied",
+        "NoDeviceForYou": "Unfortunately no device is registered",
+        "NoNotoficationForYou": "No events have been recorded",
+        "NoActiveCondition": "There are no active conditions",
+        "ExistCondition": "Available conditions",
+        "WithOutTime": "No time",
+        "RemainingPoint": "The remaining point ",
+        "SelectArea": "Please select a area",
+        "AreaSelected": "The desired area was selected",
+        "SelectedArea": "Selected area",
+        "SelectMinimum4Point": "At least 4 points must be selected",
+        "Maximum15Point": "15 points are selectable",
+        "CreateTime": "Creation time",
+        "ConditionIsDisposable": "It is a disposable condition",
+        "ConditionIsNotDisposable": "It is not a disposable condition",
+        "DeviceModeInEnterArea": "Change work mode to",
+        "DeviceModeInExitArea": "Change work mode to",
+        "SampleTimeInEnterArea": "Change the interval between offline submissions to",
+        "SampleTimeInExitArea": "Change the interval between offline submissions to",
+        "ConditionCommand": "Condition commands",
+        "NoCommand": "no command",
+        "Device": "Model",
+        "DeviceModel": "Device Model",
+        "Tracker": "Tracker",
+        "Logger": "Logger",
+        "ModemImei": "Modem Imei",
+        "OwnerMobile": "Owner Mobile",
+        "IsActive": "Is Active?",
+        "DeviceSerial": "Device Serial",
+        "LastConnection": "Last Connection",
+        "NoChange": "No Change",
+        "SecondsAgo": "Seconds Ago",
+        "MinutesAgo": "Minutes Ago",
+        "HoursAgo": "Hours Ago",
+        "DaysAgo": "Days Ago",
+        "MomentsAgo": "Moments Ago",
+        "MonthsAgo": "Months Ago",
+        "YearsAgo": "Years Ago",
+        "DevicePointsCount": "Number of registered points",
+        "PointsCount": "Number of points",
+        "WarrantyCredit": "Warranty credit",
+        "OtherDays": "other day",
+        "Ended": "It has been finished",
+        "SimcardBalance": "Simcard Balance",
+        "SimcardNumber": "Simcard Number",
+        "SyncNotDone": "Sync settings not done",
+        "SyncAt": "Sync settings",
+        "Second": "Second",
+        "Minute": "Minute",
+        "Hour": "Hour",
+        "Day": "Day",
+        "Month": "Month",
+        "IsMoving": "Moving",
+        "Stoped": "Stoped",
+        "Route": "Route",
+        "Routes": "Routes",
+        "Engine": "Engine",
+        "On": "On",
+        "Off": "Off",
+        "Type": "Type",
+        "Time": "Time",
+        "Error": "Error",
+        "Warning": "Warning",
+        "Speed": "Speed",
+        "Kmh": "Km/h",
+        "Km": "Km",
+        "Degree": "Degree",
+        "Direction": "Direction",
+        "Meter": "Meter",
+        "Voltage": "Volt",
+        "Percent": "Percent",
+        "Centigrade": "Centigrade",
+        "Altitude": "Altitude",
+        "CarBattery": "Car Battery",
+        "InternalBattery": "Internal Battery",
+        "ExternalBattery": "External Battery",
+        "DeviceRunTime": "Run Time",
+        "DeviceFixTime": "Fix Time",
+        "Mode_Logger": "Offline tracking",
+        "Mode_OnlineTracking": "Online Tracking",
+        "Mode_PowerOff": "Power Off",
+        "Temperature": "Temperature",
+        "Humidity": "Humidity",
+        "PleaseSelectDateRange": "Please select a time period",
+        "PleaseConditionDate": "Please select the desired time",
+        "SelectRange": "Select the desired time period",
+        "SelectStartDate": "Select start time",
+        "SelectEndDate": "Select the end time",
+        "RouteTotallTime": "Time to travel",
+        "RouteStartDate": "Start route",
+        "RouteEdnDate": "End route",
+        "DistanceTraveled": "travelled distance",
+        "MaximumSpeed": "Maximum Speed",
+        "RouteColor": "Route Color",
+        "Sender": "Sender",
+        "Reciver": "Reciver",
+        "Message": "Message",
+        "Delete": "Delete",
+        "Read": "Read",
+        "Id": "Id",
+        "Title": "Title",
+        "Action": "Action",
+        "Yes": "Yes",
+        "No": "No",
+        "Close": "Close",
+        "Open": "Open",
+        "Next": "Next",
+        "Previous": "Previous",
+
+
+
+        "DeviceParameters": "Device Parameters",
+
+
+        "RemoveDeviceQuestion": "This operation is not reversible, do you want to delete the device from your account?",
+        "DeletePointsQuestion": "This operation is not reversible, do you want to delete all parts of the device?",
+
+        "TemperatureSensorRange": "Temperature Sensor Range",
+        "HumiditySensorRange": "Humidity Sensor Range",
+        "DeviceStatus": "Device Status",
+        "DeviceEvents": "Device Events",
+
+
+        "PleaseChoose": "Please Choose",
+
+        "ExitFromArea": "Exit From Area",
+        "EnterToArea": "Enter To Area",
+        "DoNotEnterAreaUntil": "Do Not Enter Area Until",
+        "DoNotExitAreaUntil": "Do Not Exit Area Until",
+        "EnterAndExitToArea": "Enter And Exit To Area",
+        "StopMoreThan": "Stop More Than"
+
+
+
+
+
+
+
+
+    },
+    "Result": {
+        "Success": "Success",
+        "Error": "Error",
+
+
+        "NoError": "No Error",
+        "UnknownError": "Unknown Error",
+
+
+        "NotAuthenticated": "You are not authenticated",
+        "NoPermission": "You do not have the required permissions",
+
+        "ConnectionError": "Error communicating with server",
+
+
+
+        "InvalidInputData": "Check inputs",
+
+        "RecaptchaIsInvalid": "فرمت سنمجش ربات نادرست است",
+        "RecaptchaResultError": "شما ربات تشخیص داده شده اید",
+        "FirstNameIsInvalid": "فرمت نام نادرست است",
+        "LastNameIsInvalid": "فرمت نا خانوادگی نادرست است",
+        "MobileIsInvalid": "فرمت موبایل نادرست است",
+        "PasswordIsInvalid": "فرمت کلمه عبور نادرست است",
+        "NewPasswordIsInvalid": "فرمت کلمه عبور جدید نادرست است",
+        "RePasswordIsInvalid": "فرمت تکرار کلمه عبور جدید نادرست است",
+        "OldPasswordIsInvalid": "فرمت کلمه عبور فعلی نادرست است",
+        "OldPasswordError": "کلمه عبور فعلی صحیح نیست",
+        "EmailIsInvalid": "فرمت کلمه عبور جدید نادرست است",
+        "WrongPassword": "کلمه عبور صحیح نیست",
+
+        "CodeIsInvalid": "فرمت کد اعتبار سنجی نادرست است",
+        "CodeIsWrong": "کد اعتبار سنجی صحیح نیست",
+        "EmailIsConfirm": "ایمیل شما تایید شده است",
+        "MobileIsConfirm": "موبایل شما تایید شده است",
+        "MobileNotConfirm": "موبایل شما تایید نشده است",
+        "ConfirmCodeSended": "کد برای شما ارسال شد",
+        "ConfirmCompelete": "اعتبار سنجی کامل شد",
+        "RegisterCompelete": "ثبت نام با موفقیت انجام شد",
+        "LoginCompelete": "ورود با موفقیت انجام شد",
+        "PasswordChangeCompelete": "کلمه عبور با موفقیت تغییر کرد",
+        "EmailConfirmCompelete": "تایید ایمیل با موفقیت انجام شد",
+        "InformationUpdated": "اطلاعات به روز رسانی شد",
+
+        "AccountNotActived": "حساب شما فعال نشده است",
+        "AccountIsDeactive": "حساب شما غیر فعال است",
+        "AccountIsLocked": "حساب به مدت {{value1}} دقیقه قفل است",
+
+        "CodeSendedTo": "کد برای {{value1}} ارسال شد",
+        "ConfirmEmailSend": "ایمیل اعتبار سنجی ارسال شد",
+
+        "NameIsInvalid": "فرمت نام نادرست است",
+        "NameIsExist": "نام انتخاب شده وجود دارد",
+
+        "ModemSerialIsExist": "شماره سریال مودم تکراری است",
+
+        "EmailIsExist": "کاربری با این ایمیل وجود دارد",
+        "MobileIsExist": "کاربری با این موبایل وجود دارد",
+        "MobileNotExist": "کاربری با این موبایل وجود ندارد",
+        "EmailNotExist": "کاربری با این ایمیل وجود ندارد",
+
+
+        "RedirectToMobileConfirm": "هدایت به صفحه تایید موبایل",
+        "RedirectToLogin": "هدایت به صفحه ورود",
+        "RedirectToPanel": "هدایت به پنل کاربری",
+        "RedirectToPage": "هدایت به صفحه مورد نظر",
+
+
+        "NotFounded": "صفحه مورد نظر یافت نشد",
+        "AccessDenied": "شما مجاز به دسترسی نیستید",
+        "BackToHome": "باز گشت به خانه",
+
+
+        "DeviceNotFound": "دستگاهی با این سریال وجود ندارد",
+        "DeviceHaveOwner": "دستگاه متعلق به فرد دیگری است",
+        "DeviceAddedCompelete": "دستگاه با موفقیت افزوده شد",
+        "DeviceNameExist": "دستگاهی با این نام وجود دارد",
+        "DeviceSerialIsInvalid": "سریال دستگاه معتبر نیست",
+        "DeviceNameIsInvalid": "نام دستگاه معتبر نیست",
+        "DeviceDontHaveAnyPoint": "اطلاعاتی یافت نشد",
+
+
+
+        "GpsNotFixed": "Device is not connected to the satellite",
+        "LocationWithBts": "Positioning using AGPS",
+        "LocationWithGps": "Number of connected satellites",
+
+
+        "PleaseSelectStartDate": "لطفا زمان شروع را انتخاب کنید",
+        "PleaseSelectEndDate": "لطفا زمان پایان را انتخاب کنید",
+        "PleaseSelectDateRange": "لطفا بازه زمانی را انتخاب کنید",
+        "PleaseSelectValidRange": "لطفا بازه صیحی را انتخاب کنید",
+        "StartDateCannotBeInfuture": "زمان شروع نمیتواند رد آینده باشد",
+        "EndDateCannotBeInfuture": "زمان پایان نمیتواند در آینده باشد",
+        "NoDataInThisRange": "اطلاعاتی در این بازه زمانی نیست",
+        "TheMaximumTimePeriodIsDays": "حداکثر بازه زمانی {{value1}} روز است",
+        "RouteCounts": "{{value1}} مسیر یافت شد",
+
+
+        "ActionCompleted": "عملیات انجام شد",
+
+        "VersionExist": "این ورژن وجود دارد",
+        "VersionNotExist": "ورژن وجود ندارد",
+        "FileNotFound": "فایل یافت نشد",
+        "MaximumCountIs": "حداکثر شروط فعال {{value1}} عدد است"
+
+
+
+
+    },
+
+    "Validation": {
+        "Required": "{{value1}} الزامی است",
+        "Format": "{{value1}} معتبر نیست",
+        "Minlength": "حداقل طول مجاز {{value1}} کارکتر است",
+        "Maxlength": "حداکثر طول مجاز {{value1}} کارکتر است",
+        "Pattern": "فرمت {{value1}} صحیح نیست"
+    },
+
+    "Inputs": {
+        "FirstNameText": "First Name",
+        "FirstNamePlaceHolder": "Please Enter FIrst Name",
+        "LastNameText": "Last Name",
+        "LastNamePlaceHolder": "Please Enter Last Name",
+        "MobileText": "Mobile",
+        "MobilePlaceHolder": "Mobile ، Example : 09123456789",
+
+        "Mobile1Text": "موبایل اطلاع رسانی 1",
+        "Mobile1PlaceHolder": "مثال : 09123456789",
+        "Mobile2Text": "موبایل اطلاع رسانی 2",
+        "Mobile2PlaceHolder": "مثال : 09123456789",
+        "Mobile3Text": "موبایل اطلاع رسانی 3",
+        "Mobile3PlaceHolder": "مثال : 09123456789",
+
+        "EmailText": "ایمیل",
+        "EmailPlaceHolder": "ایمیل ، مثال : test@yahoo.com",
+        "PasswordText": "Password",
+        "PasswordPlaceHolder": "Enter Your Password",
+        "NewPasswordText": "کلمه عبور جدید",
+        "NewPasswordPlaceHolder": "لطفا کلمه عبور جدید خود را وارد کنید",
+        "OldPasswordText": "کلمه عبور فعلی",
+        "OldPasswordPlaceHolder": "لطفا کلمه عبور فعلی خود را وارد کنید",
+        "CodeText": "کد دریافتی",
+        "CodePlaceHolder": "______",
+
+        "IsActived": "فعال باشد؟",
+
+        "DeviceModelText": "مدل دستگاه",
+        "DeviceModelPlaceHolder": "لطفا انتخاب کنید",
+        "DeviceModelTracker": "ردیاب",
+        "DeviceModelLogger": "لاگر",
+
+        "ModemSerialText": "شماره سریال مودم",
+        "ModemSerialPlaceHolder": "شماره سریال مودم برد دستگاه",
+
+        "VersionText": "ورژن",
+        "VersionPlaceHolder": "لطفا ورژن را وارد کنید ، مثال : 103",
+
+        "DescriptionText": "توضیحات",
+        "DescriptionPlaceHolder": "لطفا توضیحات را وارد کنید",
+
+
+        "DeviceNameText": "نام دستگاه",
+        "DeviceNamePlaceHolder": "نام دلخواه دستگاه برای شناسایی راحتتر",
+
+        "DeviceSerialText": "شماره سریال دستگاه",
+        "DeviceSerialPlaceHolder": "شماره سریال دستگاه خریداری شده",
+
+
+        "MonitoringPasswordText": "کلمه عبور مانیتورینگ",
+        "MonitoringPasswordPlaceHolder": "لطفا کلمه عبور مانیتورینگ را وارد کنید",
+
+        "OwnerMobileText": "شماره مالک دستگاه",
+        "OwnerMobilePlaceHolder": "لطفا شماره مالک دستگاه را وارد کنید",
+
+        "AreaNameText": "نام محدوده",
+        "AreaNamePlaceHolder": "مثال : شهر کرمان",
+
+        "EngineStatusText": "خودرو روشن شود؟",
+        "EngineOffSafeText": "خاموشی ایمن خودرو؟",
+
+
+        "MaximumSampleTimeText": "حداکثر فاصله زمانی بین ارسال ها",
+        "MaximumSpeedChangeText": "تغییرات سرعت  برای ارسال",
+        "MaximumDistanceChangeText": "تغییرات فاصله برای ارسال",
+        "MaximumHeadChangeText": "تغییرات زاویه برای ارسال",
+        "MaximumSmsRatingTimeText": "فاصله زمانی ارسال با پیامک",
+        "MaximumAliveRatingTimeText": "فاصله زمانی سیگنال اطلاع رسانی",
+
+        "ConditionalNotificationEnable": "هشدار های شرطی فعال باشند؟",
+
+        "GpsTimeOutText": "حداکثر زمان انتظار GPS",
+        "DeviceTimeOutText": "حداکثر زمان روشن ماندن دستگاه",
+        "OnlineTrackingInterValText": "فاصله بین ارسال های آنلاین",
+        "SampleTimeText": "فاصله بین ارسال های آفلاین",
+        "MinimumSendingTimeText": "حداقل فاصله ارسال های آفلاین",
+        "DeviceBalanceGetTimeText": "فاصله استعلام اطلاعات سیم کارت",
+        "MinimumWorkingVoltageText": "حداقل ولتاژ کاری دستگاه",
+        "SosEnableText": "ارسال با فعال شدن کلید SOS",
+        "MotionEnableText": "ارسال با فعال شدن سنسور ضربه",
+        "TrackingModeText": "حالت کاری دستگاه",
+
+
+
+        "InternalBatteryMinimumVoltageText": "حداقل ولتاژ مجاز باتری داخلی",
+        "InternalBatteryMinimumVoltageEnableText": "هشدار ولتاژ باتری داخلی فعال باشد؟",
+        "CarBatteryMinimumVoltageText": "حداقل ولتاژ مجاز باتری خودرو",
+        "CarBatteryMinimumVoltageEnableText": "هشدار ولتاژ باتری خودرو فعال باشد؟",
+        "DynamDamageVoltageText": "حداقل ولتاژ مجاز دینام خودرو",
+        "DynamDamageVoltageEnableText": "هشدار خرابی دینام خودرو فعال باشد؟",
+        "SpeedLimitValueText": "حداکثر سرعت مجاز خودرو",
+        "SpeedLimitEnableText": "هشدار تجاوز از سرعت مجار فعال باشد؟",
+        "DistanceValueText": "میزان مسافت مجاز روزانه",
+        "DistanceValueEnableText": "هشدار مسافت مجاز روزانه فعال باشد؟",
+        "CarServiceReminderEnableText": "یادآور سرویس خودرو فعال باشد؟",
+        "CarServiceReminderValueText": "میزان مسافت یادآور سرویس خودرو",
+
+
+        "SimCardBalanceAlarmEnableText": "هشدار کمبود اعتبار سیم کارت دستگاه فعال باشد؟",
+        "EngineOnEnableText": "هشدار روشن شدن خودرو فعال باشد؟",
+        "EngineOffEnableText": "هشدار خاموش شدن خودرو فعال باشد؟",
+        "CarStartMoveEnableText": "هشدار حرکت خودرو فعال باشد؟",
+        "CarStopMoveEnableText": "هشدار توقف خودرو فعال باشد؟",
+        "CraneEnableText": "هشدار حمل با جرثقیل فعال باشد؟",
+        "ShockSensorEnableText": "هشدار فعال شدن سنسور ضربه فعال باشد؟",
+
+
+        "TemperatureRangeEnableText": "هشدار محدوده دمایی فعال باشد؟",
+        "MinimumTemperatureText": "حداقل دمای مجاز",
+        "MaximumTemperatureText": "حداکثر دمای مجاز",
+        "HumidityRangeEnableText": "هشدار محدوده رطوبتی فعال باشد؟",
+        "MinimumHumidityText": "حداقل رطوبت مجاز",
+        "MaximumHumidityText": "حداکثر رطوبت مجاز",
+
+        "ConditionType": "نوع شرط",
+        "ConditionArea": "مرز محدوده",
+        "ConditionTime": "زمان مورد نظر شرط",
+        "ConditionIsEnable": "شرط فعال باشد؟",
+        "ConditionIsDisposable": "شرط یکبار مصرف باشد؟",
+        "Action": "Action",
+
+
+
+        "OptionMaximumCondtionCount": "تعداد مجاز شروط",
+        "OptionHaveAht10Sensor": "سنسور دما دارد؟",
+        "OptionHaveInternalBattery": "باتری داخلی دارد؟",
+        "OptionHaveExternalBattery": "باتری خارجی دارد؟"
+
+
+
+
+
+    },
+    "Buttons": {
+        "Login": "Login",
+        "Register": "Register",
+        "Confirm": "Confirm",
+        "SaveChanges": "Save Changes",
+        "SendConfirmCode": "Send Confirm Code",
+        "SendEmailActiviationCode": "Send Email Activiation Code",
+        "RememberMe": "Remember Me",
+        "AgreeWihRoles": "I accept the terms and conditions",
+        "AddDevice": "Add Device",
+        "Cancell": "Cancell",
+        "Search": "Search",
+        "Select": "Select",
+        "Add": "Add",
+        "Submit": "Submit",
+        "Active": "Active",
+        "Deactive": "Deactive",
+        "Delete": "Delete",
+        "Save": "Save",
+        "View": "View",
+        "Close": "Close",
+        "ViewArea": "View Area",
+        "CopyLinkInfo": "Copy Info Link "
+    },
+    "Links": {
+        "Register": "Don't have an account? register",
+        "Login": "Do you have an account? login",
+        "ForgotPassword": "Forgot Password"
+    },
+    "Processing": {
+        "ReacptchaCheck": "Checking anti-robot",
+        "RecaptchaError": "Error in Recipchar module",
+        "SendingRequest": "Sending your request",
+        "CommunicateWithTheServer": "Communicating with the server",
+        "PleaseWait": "Please Wait"
+    },
+
+
+    "Helps": {
+        "FillInformation": "Please enter the required information"
+    }
+
+
+
+
+
+}

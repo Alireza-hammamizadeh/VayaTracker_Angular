@@ -1,0 +1,75 @@
+<div class="card">
+    <div class="card-status  br-te-7 br-ts-7" style="height: 6px;" [ngClass]="'bg-' + cardTagClass"></div>
+    <div class="card-header" style="padding: 10px;">
+
+
+
+        <h3 class="card-title text-start"> <i class="fa fa-align-justify"></i> {{Device.Name}}</h3>
+
+        <div class="card-options tags">
+
+            <span class="tag  text-success " *ngIf="Device.IsEnable == true" translate>Labels.Active</span>
+            <span class="tag  text-danger" *ngIf="Device.IsEnable == false" translate>Labels.Deactive</span>
+
+
+
+
+            <span class="tag text-success" *ngIf="pointPassedMinutes <= 180 " translate>Labels.Online</span>
+            <span class="tag text-warning" *ngIf="pointPassedMinutes > 180 && pointPassedMinutes < 600 " translate>Labels.Online</span>
+            <span class="tag text-danger" *ngIf="pointPassedMinutes >= 600 " translate>Labels.Offline</span>
+
+
+        </div>
+    </div>
+    <div class="card-body" style="padding: 5px;">
+
+        <div class="row justify-content-between">
+            <div class="col-6 text-start">
+                <span translate> Labels.SimcardNumber  </span>
+            </div>
+            <div class="col-6 text-end">
+                <span>
+                    {{Device.SimcardNumber }}
+                </span>
+            </div>
+        </div>
+
+        <div class="row justify-content-between">
+            <div class="col-6 text-start">
+                <span translate ngClass="{{ Device.SimcardBalance != null && Device.SimcardBalance < 5000 ? 'text-danger': ''}}"> Labels.SimcardBalance  </span>
+            </div>
+            <div class="col-6 text-end">
+                <span ngClass="{{ Device.SimcardBalance != null && Device.SimcardBalance < 5000 ? 'text text-danger': ''}}">
+                    {{Device.SimcardBalance }}
+                </span>
+            </div>
+        </div>
+
+        <div class="row justify-content-between">
+            <div class="col-6 text-start">
+                <span translate> Inputs.LicensePlateText  </span>
+            </div>
+            <div class="col-6 text-end">
+                <span>
+                    {{Device.LicensePlate }}
+                </span>
+            </div>
+        </div>
+
+
+        <div class="row justify-content-between" style="margin-top: 20px;">
+            <div class="col-6 text-start btn-list">
+                <!-- <button type="button" class="btn btn-icon btn-cyan"><i class="fe fe-map-pin"></i></button>
+                <button type="button" class="btn btn-icon  btn-azure"><i class="fe fe-search"></i></button> -->
+            </div>
+            <div class="col-6 text-end">
+                <button type="button" class="btn btn-info" routerLink="/panel/device/{{Device.DeviceSerial.toLowerCase()}}"> مشاهده <i class="fe fe-eye" ></i></button>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+</div>

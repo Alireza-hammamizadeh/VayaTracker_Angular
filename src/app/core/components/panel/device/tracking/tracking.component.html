@@ -1,0 +1,67 @@
+<div class="row" style="padding: 0px; margin: 0px;" *ngIf="Device.DeviceModel == 3 ">
+
+    <ng-container *ngIf="currentPoint != undefined && currentPoint != null">
+
+        <div class="col-md-6 col-xl-6" style="padding: 0px; margin-bottom: -20px;" dir="auto">
+            <div class="card">
+
+
+                <div class="row" style="padding: 5px; margin: 0px;">
+
+                    <div class="col-7 text-start" style="padding: 0px;">
+                        <div class="tags" style="padding: 0px;">
+
+
+
+                            <span class="tag text-success" *ngIf="pointPassedMinutes <= 180 " translate>Labels.Online</span>
+                            <span class="tag text-warning" *ngIf="pointPassedMinutes > 180 && pointPassedMinutes < 600 " translate>Labels.Online</span>
+                            <span class="tag text-danger" *ngIf="pointPassedMinutes >= 600 " translate>Labels.Offline</span>
+
+
+                            <span class="tag text-primary" *ngIf="this.currentPoint.EngineStatus == true" translate>Labels.On </span>
+                            <span class="tag text-info" *ngIf="this.currentPoint.EngineStatus == false" translate>Labels.Off </span>
+
+                            <span class="tag text-primary" *ngIf="this.currentPoint.IsMoving == true">{{currentPoint.Speed}} <span translate>Labels.Kmh</span> </span>
+                            <span class="tag text-info" *ngIf="this.currentPoint.IsMoving == false" translate>Labels.Stoped </span>
+
+
+
+
+
+
+                        </div>
+                    </div>
+                    <div class="col-5 text-end" style="padding: 5px; margin: 0px; font-size: calc(12px + 0.3vw);">
+                        <span>{{(dateService.getPassedMinutes(this.currentPoint.UTC) > 1500) ?this.dateService.getDateString(this.currentPoint.UTC,true) : this.dateService.getPassedDateTime(this.currentPoint.UTC) }}</span>
+                    </div>
+
+                </div>
+
+                <div class="row" style="padding: 5px; margin: 0px;">
+
+                    <div class="col-5 text-start " style="padding: 0px; font-size: calc(12px + 0.3vw);">
+                        <span translate>Labels.CarBattery</span>(<span translate>Labels.Voltage</span>) :
+                        <span>{{currentPoint.ExternalBatteryVoltage}}</span>
+                    </div>
+
+                    <div class="col-7 text-end" style="padding: 0px; font-size: calc(12px + 0.3vw);">
+                        <span translate>Labels.InternalBattery</span>(<span translate>Labels.Percent</span>) :
+                        <span>{{vayaTrackerHelper.GetInternalBatteryPersend(currentPoint.InteralBatteryVoltage)}}</span>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+    </ng-container>
+    <div class="col-md-6 col-xl-6" style=" padding: 0px; margin: 0px;">
+        <div id="myMapHolder" class="myMapHolder">
+            <div class="myMap" id="myMap">
+            </div>
+        </div>
+    </div>
+</div>

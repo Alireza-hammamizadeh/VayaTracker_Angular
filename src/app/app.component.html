@@ -1,0 +1,43 @@
+<ng-snotify style=" position:relative;  z-index: 9999999 !important;"></ng-snotify>
+<ngx-spinner bdColor="rgba(0, 0, 0, 0.92)" size="medium" color="#fff" type="ball-clip-rotate-multiple" [fullScreen]="true">
+    <!-- <h4 class="primary">منتظر بمانید </h4> -->
+</ngx-spinner>
+
+<div class="page" id="page">
+
+    <div class="page-main">
+
+
+        <router-outlet></router-outlet>
+
+
+        <app-header></app-header>
+
+        <div class="jumps-prevent" style="padding-top: 55px;"></div>
+
+        <app-menu></app-menu>
+
+        <div class="main-content app-content mt-0" id="app-content">
+
+            <div class="side-app" id="side-app">
+
+                <div class="main-container container-fluid">
+
+
+                    <router-outlet></router-outlet>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <app-slider-content></app-slider-content>
+
+    <app-language-selector-modal></app-language-selector-modal>
+
+    <app-footer></app-footer>
+
+</div>

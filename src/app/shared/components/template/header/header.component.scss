@@ -1,0 +1,13 @@
+.app-header {
+    // background-color: yellow !important;
+    height: 55px !important;
+    padding-top: 3px !important;
+    padding-bottom: 4px !important;
+}
+
+@media (max-width: 990px) {
+    .sidebar-mini .responsive-navbar .navbar-collapse,
+    .responsive-navbar .navbar-collapse {
+        margin-top: 55px !important;
+    }
+}

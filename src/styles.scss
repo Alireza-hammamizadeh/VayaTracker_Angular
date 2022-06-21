@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+html body:lang(en) {
+    height: 100%;
+    font-family: "segoe ui", "tahoma";
+    margin: 0px;
+    // overflow: hidden !important;
+}
+
+html body:lang(fa) {
+    height: 100%;
+    font-family: "primary-font", "segoe ui", "tahoma";
+    margin: 0px;
+    // overflow: hidden !important;
+}
+
+.myMap {
+    z-index: 0;
+}
+
+.myMapHolder {
+    border-radius: 8px;
+    margin: 2px !important;
+    overflow: hidden !important;
+}

@@ -1,0 +1,83 @@
+<div class="row " style="padding: 0px; margin: 0px;">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header border-bottom-0">
+                <div class="card-title">
+                    Basic Wizard With Validation
+                </div>
+            </div>
+            <div class="card-body">
+                <div id="wizard2" role="application" class="wizard clearfix">
+                    <div class="steps clearfix">
+                        <ul role="tablist">
+                            <li role="tab" class="first current" aria-disabled="false" aria-selected="true"><a id="wizard2-t-0" href="#wizard2-h-0" aria-controls="wizard2-p-0"><span class="current-info audible">current step: </span><span class="number">1</span> <span class="title">Personal Information</span></a></li>
+                            <li role="tab" class="disabled" aria-disabled="true"><a id="wizard2-t-1" href="#wizard2-h-1" aria-controls="wizard2-p-1"><span class="number">2</span> <span class="title">Billing Information</span></a></li>
+                            <li role="tab" class="disabled last" aria-disabled="true"><a id="wizard2-t-2" href="#wizard2-h-2" aria-controls="wizard2-p-2"><span class="number">3</span> <span class="title">Payment Details</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="content clearfix">
+                        <h3 id="wizard2-h-0" tabindex="-1" class="title current">Personal Information</h3>
+                        <section id="wizard2-p-0" role="tabpanel" aria-labelledby="wizard2-h-0" class="body current" aria-hidden="false">
+                            <div class="row ">
+                                <div class="col-md-5 col-lg-4">
+                                    <label class="form-control-label">Firstname: <span class="tx-danger">*</span></label> <input class="form-control" id="firstname" name="firstname" placeholder="Enter firstname" required="" type="text">
+                                </div>
+                                <div class="col-md-5 col-lg-4 mg-t-20 mg-md-t-0">
+                                    <label class="form-control-label">Lastname: <span class="tx-danger">*</span></label> <input class="form-control" id="lastname" name="lastname" placeholder="Enter lastname" required="" type="text">
+                                </div>
+                            </div>
+                        </section>
+                        <h3 id="wizard2-h-1" tabindex="-1" class="title">Billing Information</h3>
+                        <section id="wizard2-p-1" role="tabpanel" aria-labelledby="wizard2-h-1" class="body" aria-hidden="true" style="display: none;">
+                            <p>Wonderful transition effects.</p>
+                            <div class="form-group wd-xs-300">
+                                <label class="form-control-label">Email: <span class="tx-danger">*</span></label> <input class="form-control" id="email" name="email" placeholder="Enter email address" required="" type="email">
+                            </div>
+                        </section>
+                        <h3 id="wizard2-h-2" tabindex="-1" class="title">Payment Details</h3>
+                        <section id="wizard2-p-2" role="tabpanel" aria-labelledby="wizard2-h-2" class="body" aria-hidden="true" style="display: none;">
+                            <div class="form-group">
+                                <label class="form-label">CardHolder Name</label>
+                                <input type="text" class="form-control" id="name11" placeholder="First Name">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Card number</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search for...">
+                                    <span class="input-group-text btn btn-info shadow-none mb-0">
+                                    <i class="fa fa-cc-visa"></i> &nbsp; <i class="fa fa-cc-amex"></i> &nbsp;
+                                    <i class="fa fa-cc-mastercard"></i>
+                                </span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <div class="form-group mb-sm-0">
+                                        <label class="form-label">Expiration</label>
+                                        <div class="input-group">
+                                            <input type="number" class="form-control" placeholder="MM" name="expiremonth">
+                                            <input type="number" class="form-control" placeholder="YY" name="expireyear">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 ">
+                                    <div class="form-group mb-0">
+                                        <label class="form-label">CVV <i class="fa fa-question-circle"></i></label>
+                                        <input type="number" class="form-control" required="">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="actions clearfix">
+                        <ul role="menu" aria-label="Pagination">
+                            <li class="disabled" aria-disabled="true"><a href="#previous" role="menuitem">Previous</a></li>
+                            <li aria-hidden="false" aria-disabled="false"><a href="#next" role="menuitem">Next</a></li>
+                            <li aria-hidden="true" style="display: none;"><a href="#finish" role="menuitem">Finish</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
